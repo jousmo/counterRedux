@@ -1,0 +1,26 @@
+{
+  "name": "ReduxSimple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "linter": "standard --verbose",
+    "linter:fix": "standard --fix --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2",
+    "standard": "^14.3.3"
+  },
+  "dependencies": {
+    "redux": "^4.0.5"
+  },
+  "description": "Example Redux With JavaScript",
+  "standard": {
+    "ignore": [
+      "/dist/"
+    ]
+  }
+}
